@@ -58,7 +58,6 @@ const Header = () => {
         </Navbar>
       </Container>
     </header>
-
   );
 };
 export default Header;
