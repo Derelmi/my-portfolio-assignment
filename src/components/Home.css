@@ -1,3 +1,14 @@
 .home-img{
     width: 40%;
 }
+
+.home-link{
+     display: flex; 
+     margin-right: 7rem;
+      align-items: center; 
+      column-gap: 1rem;
+}
+
+.home {
+    flex-direction: column;
+}

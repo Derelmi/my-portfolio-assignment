@@ -1,21 +1,26 @@
 import React from "react"
 import { Button } from 'react-bootstrap';
 import three from './../images/three.png';
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div className=" landing text-center d-flex align-items-center justify-content-center">
-      <div className="display-2">
-        <div className="h1">Hello, I am </div>
-        <h2 className="h2">
-          Chukwu <span>Derel</span>mi
-        </h2>
-        <a href="#action1" className="h3 btn btn-outline-success">
-          Learn More
-        </a>
-      </div>
+    <div className=" landing text-center d-flex home align-items-center justify-content-center">
+      <div className="d-flex align-items-center justify-content-center">
+        <div className="display-2">
+          <div className="h1">Hello, I am </div>
+          <h2 className="h2">
+            Chukwu <span>Derel</span>mi
+          </h2>
+          <a href="#about" className="h3 btn btn-outline-success">
+            Learn More
+          </a>
+        </div>
 
       <img src={three} alt="" />
+
+      </div>
+
 
       <div>
         <h1 className="display-2 text-center" id="about">
@@ -46,7 +51,7 @@ const Home = () => {
               <li> Sleeping </li>
             </p>{" "}
             <br />
-            <div style=" display: flex; margin-right: 7rem; align-items: center; column-gap: 1rem;">
+            <div className="home-link">
               <a href="https://github.com/Derelmi" target="blank">
                 <img
                   className="rounded float"
