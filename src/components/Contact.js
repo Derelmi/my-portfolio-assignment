@@ -4,7 +4,7 @@ import { Button,Form,Row,Col, } from 'react-bootstrap';
 
 const Contact = () =>{
     return (
-      <div className="container container-fluid">
+      <div id="contact" className="container container-fluid">
         <Form>
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridUsername">
@@ -26,7 +26,7 @@ const Contact = () =>{
 
             <Form.Group as={Col} controlId="formGridTelephone">
               <Form.Label>TELEPHONE</Form.Label>
-              <Form.Control type="tel" placeholder="Enter telephone(+......)" />
+              <Form.Control type="telnum" placeholder="Enter telephone(+......)" />
             </Form.Group>
           </Row>
 

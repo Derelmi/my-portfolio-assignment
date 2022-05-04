@@ -8,7 +8,7 @@ import Sthree from './../images/Sthree.jpg';
 
 const Images = () => {
     return(
-    <div className="container d-flex flex-wrap justify-content-center my-5 align-items-center"> 
+    <div id="images" className="container d-flex flex-wrap justify-content-center my-5 align-items-center"> 
         <img src={Sone} className="rounded float-start img" alt="" />
         <img src={Stwo} className="rounded float-end" alt="" />
         <img src={Sthree} className="rounded float-md-start" alt="" />

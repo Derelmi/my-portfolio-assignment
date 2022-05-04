@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 
 const Education = () => {
   return (
-    <div className="mt-2">
+    <div id="education" className="mt-2">
       <h2 className="text-center">EDUCATIONAL BACKGROUND</h2>
       <p className="text-center">Schools Attended</p>
 
