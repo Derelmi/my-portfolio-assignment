@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header>
       <Container fluid>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" fixed="top">
           <Navbar.Brand href="#">
             <img
               src="https://www.pinclipart.com/picdir/middle/537-5374089_react-js-logo-clipart.png"

@@ -1,4 +1,5 @@
 import React from "react";
+import './Images.css'
 import { Button } from "react-bootstrap";
 import Pone from './../images/Pone.jpeg';
 import Ptwo from './../images/Ptwo.jpeg';
@@ -10,7 +11,7 @@ const Images = () => {
     return (
       <div
         id="images"
-        className="container container-fluid d-flex flex-wrap justify-content-center my-5 align-items-center img1"
+        className="container container-fluid d-flex flex-wrap justify-content-center my-5 align-items-center "
       >
         <img src={Sone} className="rounded float-start img1" alt="" />
         <img src={Stwo} className="rounded float-end img1" alt="" />
@@ -18,7 +19,7 @@ const Images = () => {
         <img src={Pone} className="rounded float-md-end img1" alt="" />
         <img src={Ptwo} className="rounded float-end img1" alt="" />
       </div>
-    );
+    )
 
 };
 export default Images;
