@@ -1,7 +1,5 @@
-.img{
-    container-fuid
-     d-flex flex-wrap  
-     justify-content-center
-      my-5 
-    align-items-center;
+.img1{
+width: 300px;
+height: 300px;
+object-fit: cover;
 }
