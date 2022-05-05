@@ -5,8 +5,11 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div id="home" className=" landing text-center d-flex home align-items-center justify-content-center">
-      <div className="d-flex align-items-center justify-content-center">
+    <div
+      id="home"
+      className="  text-center d-flex home align-items-center justify-content-center"
+    >
+      <div className=" landing d-flex align-items-center justify-content-center">
         <div className="display-2">
           <div className="h1">Hello, I am </div>
           <h2 className="h2">
@@ -17,10 +20,8 @@ const Home = () => {
           </a>
         </div>
 
-      <img src={three} alt="" />
-
+        <img src={three} alt="" />
       </div>
-
 
       <div>
         <h1 className="display-2 text-center" id="about">
